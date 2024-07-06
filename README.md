@@ -20,7 +20,7 @@
 
 #### Шаги для установки и запуска:
   #### 1)Клонирование репозитория:
-  git clone https://github.com/Wex187/practice.git
+  git clone https://github.com/Wex187/practice.git а так же команду
   cd repository-name(куда вы будете сохранять)
 
   #### 2)Изменение параметров:
