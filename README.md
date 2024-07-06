@@ -20,11 +20,26 @@
 
 #### Шаги для установки и запуска:
   #### 1)Клонирование репозитория:
+  '''bash
     git clone https://github.com/Wex187/practice.git
     cd repository-name(куда вы будете сохранять)
+'''
+  #### 2)Изменение параметров:
+  в app.py подставьте ссответствующие значения для бд
+  ```python
+  def connect_db():
+      return psycopg2.connect(
+          host=os.getenv('DATABASE_HOST', 'localhost'),
+          user="postgres",
+          password="12365477Suka",
+          database="vac",
+      )
+  ```
 
   #### 2)Создание и запуск Docker контейнеров:
+  ```bash
     docker-compose up --build
+  ```
     Эта команда соберет и запустит все необходимые контейнеры, включая веб-приложение и базу данных PostgreSQL.
 
   #### 3)Инициализация базы данных:
