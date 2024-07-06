@@ -21,9 +21,8 @@
 #### Шаги для установки и запуска:
   #### 1)Клонирование репозитория:
   '''bash
-    git clone https://github.com/Wex187/practice.git
-  ```
-    cd repository-name(куда вы будете сохранять)
+  git clone https://github.com/Wex187/practice.git
+  cd repository-name(куда вы будете сохранять)
 
   #### 2)Изменение параметров:
   в app.py подставьте ссответствующие значения для бд
